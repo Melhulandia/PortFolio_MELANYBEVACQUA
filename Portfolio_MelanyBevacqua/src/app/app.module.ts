@@ -5,12 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TwitterComponent } from './components/twitter/twitter.component';
+import { FacebookComponent } from './components/facebook/facebook.component';
+import { GithubComponent } from './components/github/github.component';
+import { LinkedinComponent } from './components/linkedin/linkedin.component';
+import { ArgProgramaComponent } from './components/arg-programa/arg-programa.component';
+import { InstagramComponent } from './components/instagram/instagram.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TwitterComponent
+    TwitterComponent,
+    FacebookComponent,
+    GithubComponent,
+    LinkedinComponent,
+    ArgProgramaComponent,
+    InstagramComponent
   ],
   imports: [
     BrowserModule,
