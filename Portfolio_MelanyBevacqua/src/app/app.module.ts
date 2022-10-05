@@ -10,6 +10,7 @@ import { GithubComponent } from './components/github/github.component';
 import { LinkedinComponent } from './components/linkedin/linkedin.component';
 import { ArgProgramaComponent } from './components/arg-programa/arg-programa.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
+import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { InstagramComponent } from './components/instagram/instagram.component';
     GithubComponent,
     LinkedinComponent,
     ArgProgramaComponent,
-    InstagramComponent
+    InstagramComponent,
+    LogoApComponent
   ],
   imports: [
     BrowserModule,
